@@ -2,7 +2,6 @@ package com.mycompany.oop;
 
 public class Lamba {
 
-    private String tip;   
     public boolean durum = true;
     public String konum;
 
