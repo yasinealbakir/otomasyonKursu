@@ -2,6 +2,8 @@ package com.mycompany.oop;
 
 public class Main {
 
+    public final static int sayi1 = 3;
+
     public static void main(String[] args) {
 //        Kopek kopek = new Kopek();
 //        kopek.setIsim("Karabaþ");
@@ -32,7 +34,6 @@ public class Main {
            6- Ana sýnýfta (Main.java) 2 farklý araç nesnesi olustur, bu araçlarý sürüp, fiyatlarýný güncelle.
           
          */
-        
         Sedan megane = new Sedan("Megane 4", 350, 750000, 4);
         System.out.println(
                 " Aracin modeli : " + megane.getModel() + "\n"
@@ -40,6 +41,8 @@ public class Main {
                 + " Fiyati : " + megane.getFiyat() + "\n"
                 + " Kapi Sayisi: " + megane.getKapiSayisi()
         );
+        
+    
 
         megane.arabayiSur(50);
         megane.satisFiyati(745000);
@@ -68,6 +71,10 @@ public class Main {
                 + " Guncel Fiyati : " + golf.getFiyat() + "\n"
                 + " Kapi Sayisi: " + golf.getKapiSayisi()
         );
+        Sayfa giris = new GirisSayfasi();
+        giris.butonaTikla();
+        Sayfa kullaniciTanimlama = new KullaniciTanimlamaSayfa();
+        kullaniciTanimlama.butonaTikla();
 
     }
 

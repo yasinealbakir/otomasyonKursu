@@ -113,5 +113,9 @@ public class Donguler {
 
         System.out.println("sonraki kod bloğu");
     }
+    
+    //NoSuchElementException
+    //TimeoutException
+    
 
 }

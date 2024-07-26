@@ -3,7 +3,8 @@ package com.mycompany.otomasyonkursu;
 public class StatikDemo {
 
     public static void main(String[] args) {
-        StatikDemo demo = new StatikDemo();
+        //StatikDemo demo = new StatikDemo();
+        StatikDemo.sayac = 1;
         
 
     }

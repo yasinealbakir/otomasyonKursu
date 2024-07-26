@@ -10,6 +10,9 @@ public class Testci extends Personel{
     @Override
     public void calis() {
         System.out.println("Regresyon testi yapýyor.");
+
     }
+    
+    
 
 }

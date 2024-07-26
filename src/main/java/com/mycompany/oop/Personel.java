@@ -6,6 +6,7 @@ public abstract class Personel {
     private String soyad;
     private String title;
     private int yas;
+    public int x;
 
     public Personel(String ad, String soyad, String title, int yas) {
         this.ad = ad;
