@@ -11,4 +11,25 @@
         <maven.compiler.target>17</maven.compiler.target>
         <exec.mainClass>com.mycompany.otomasyonkursu.OtomasyonKursu</exec.mainClass>
     </properties>
+    
+    <dependencies>
+   
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.10.2</version>
+            <scope>test</scope>
+        </dependency>
+        
+        
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.23.0</version>
+        </dependency>
+
+
+    </dependencies>
+    
+    
 </project>
